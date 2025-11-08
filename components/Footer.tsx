@@ -114,7 +114,7 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="mailto:support@rizzer.app" className="text-gray-400 hover:text-white transition-colors">
+                <a href="mailto:nidrosoft@outlook.com" className="text-gray-400 hover:text-white transition-colors">
                   Contact Us
                 </a>
               </li>
