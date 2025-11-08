@@ -91,6 +91,21 @@ const features: Feature[] = [
     imagePosition: 'right',
     image: '/images/coach.png',
   },
+  {
+    icon: <MessageCircle className="w-8 h-8" />,
+    title: 'Match Your Vibe with Perfect Conversation Tones',
+    description:
+      'Choose from multiple conversation styles to match your personality and the moment. From flirty to funny, smooth to spicy - Rizzer adapts to your unique style.',
+    features: [
+      '😏 Flirty - Playful and charming',
+      '😂 Funny - Humorous and witty',
+      '😎 Smooth - Confident and cool',
+      '🔥 Spicy - Bold and provocative',
+      '💕 Romantic - Sweet and genuine',
+    ],
+    imagePosition: 'left',
+    image: '/images/screenshot.png',
+  },
 ];
 
 function FeatureCard({ feature, index }: { feature: Feature; index: number }) {
