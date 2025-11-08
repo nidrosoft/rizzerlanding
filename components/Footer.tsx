@@ -124,7 +124,7 @@ export default function Footer() {
 
         {/* Bottom Bar */}
         <div className="border-t border-gray-800 pt-8 text-center text-gray-400">
-          <p>
+          <p suppressHydrationWarning>
             © {currentYear} Rizzer. All rights reserved. Made with ❤️ by{' '}
             <a 
               href="https://www.linkedin.com/in/cyriac-zeh/" 

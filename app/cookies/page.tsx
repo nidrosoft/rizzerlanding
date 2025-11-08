@@ -352,7 +352,7 @@ export default function CookiePolicyPage() {
       {/* Footer */}
       <footer className="bg-gray-900 text-white py-8 mt-16">
         <div className="container-custom text-center">
-          <p className="text-gray-400">
+          <p className="text-gray-400" suppressHydrationWarning>
             © {new Date().getFullYear()} Rizzer. All rights reserved.
           </p>
         </div>

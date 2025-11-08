@@ -246,7 +246,7 @@ export default function StoryPage() {
       {/* Footer */}
       <footer className="bg-gray-900 text-white py-8">
         <div className="container-custom text-center">
-          <p className="text-gray-400">
+          <p className="text-gray-400" suppressHydrationWarning>
             © {new Date().getFullYear()} Rizzer. All rights reserved. Made with ❤️ by{' '}
             <a 
               href="https://www.linkedin.com/in/cyriac-zeh/" 
