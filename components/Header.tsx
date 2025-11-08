@@ -35,7 +35,7 @@ export default function Header() {
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled ? 'bg-white shadow-md' : 'bg-transparent'
+        isScrolled || isMobileMenuOpen ? 'bg-white shadow-md' : 'bg-transparent'
       }`}
     >
       <nav className="container-custom py-4">
@@ -81,7 +81,7 @@ export default function Header() {
 
           {/* Mobile Menu Button */}
           <button
-            className="md:hidden text-gray-700 hover:text-rizzer-pink transition-colors"
+            className="md:hidden text-gray-700 hover:text-rizzer-pink transition-colors z-50"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
           >
             {isMobileMenuOpen ? <X size={28} /> : <Menu size={28} />}
@@ -96,15 +96,15 @@ export default function Header() {
               animate={{ opacity: 1, height: 'auto' }}
               exit={{ opacity: 0, height: 0 }}
               transition={{ duration: 0.3 }}
-              className="md:hidden overflow-hidden"
+              className="md:hidden overflow-hidden bg-white"
             >
-              <div className="py-4 space-y-4">
+              <div className="py-6 space-y-2 border-t border-gray-100 mt-4">
                 {navItems.map((item) => (
                   item.href ? (
                     <a
                       key={item.label}
                       href={item.href}
-                      className="block w-full text-left text-gray-700 hover:text-rizzer-pink transition-colors duration-200 font-medium py-2"
+                      className="block w-full text-left text-gray-700 hover:text-rizzer-pink hover:bg-pink-50 transition-all duration-200 font-medium py-3 px-4 rounded-lg"
                       onClick={() => setIsMobileMenuOpen(false)}
                     >
                       {item.label}
@@ -113,18 +113,20 @@ export default function Header() {
                     <button
                       key={item.id}
                       onClick={() => item.id && scrollToSection(item.id)}
-                      className="block w-full text-left text-gray-700 hover:text-rizzer-pink transition-colors duration-200 font-medium py-2"
+                      className="block w-full text-left text-gray-700 hover:text-rizzer-pink hover:bg-pink-50 transition-all duration-200 font-medium py-3 px-4 rounded-lg"
                     >
                       {item.label}
                     </button>
                   )
                 ))}
-                <button
-                  onClick={() => scrollToSection('download')}
-                  className="btn-gradient text-white px-6 py-3 rounded-full font-semibold shadow-lg w-full"
-                >
-                  Download Now
-                </button>
+                <div className="pt-4">
+                  <button
+                    onClick={() => scrollToSection('download')}
+                    className="btn-gradient text-white px-6 py-3 rounded-full font-semibold shadow-lg w-full"
+                  >
+                    Download Now
+                  </button>
+                </div>
               </div>
             </motion.div>
           )}
