@@ -44,11 +44,10 @@ export default function Header() {
           <motion.div
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
-            className="text-2xl md:text-3xl font-bold text-gradient cursor-pointer flex items-start gap-1"
+            className="text-2xl md:text-3xl font-bold text-gradient cursor-pointer"
             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
           >
-            <span>Rizzer</span>
-            <span className="text-xs font-normal bg-gradient-to-r from-rizzer-pink to-rizzer-salmon text-white rounded-full w-5 h-5 flex items-center justify-center">™</span>
+            Rizzer
           </motion.div>
 
           {/* Desktop Navigation */}
