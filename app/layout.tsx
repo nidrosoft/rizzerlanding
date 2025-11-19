@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     description: "Master modern dating with AI-powered conversation starters, personalized date ideas, and intelligent relationship management. Download now for iOS and Android.",
     images: [
       {
-        url: "/images/rizzer-logo.png",
+        url: "/images/favicon.jpg",
         width: 1200,
         height: 630,
         alt: "Rizzer - Your AI Dating Coach",
@@ -51,7 +51,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Rizzer - Your AI Dating Coach",
     description: "Get personalized conversation starters, date ideas, and relationship insights powered by AI. Master modern dating with confidence. Download now! 💬❤️",
-    images: ["/images/rizzer-logo.png"],
+    images: ["/images/favicon.jpg"],
     creator: "@rizzerapp",
     site: "@rizzerapp",
   },
@@ -68,13 +68,13 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: [
-      { url: '/images/rizzer-logo.png', type: 'image/png' },
+      { url: '/images/favicon.jpg', type: 'image/jpeg' },
       { url: '/favicon.ico' },
     ],
     apple: [
-      { url: '/images/rizzer-logo.png', sizes: '180x180', type: 'image/png' },
+      { url: '/images/favicon.jpg', sizes: '180x180', type: 'image/jpeg' },
     ],
-    shortcut: '/images/rizzer-logo.png',
+    shortcut: '/images/favicon.jpg',
   },
   manifest: '/manifest.webmanifest',
 };
