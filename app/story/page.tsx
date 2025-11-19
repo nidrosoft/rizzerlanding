@@ -17,7 +17,7 @@ export default function StoryPage() {
       "url": "https://www.linkedin.com/in/cyriac-zeh/",
       "sameAs": [
         "https://www.linkedin.com/in/cyriac-zeh/",
-        "https://rizzer.app"
+        "https://rizzer.io"
       ],
       "worksFor": {
         "@type": "Organization",
@@ -27,7 +27,7 @@ export default function StoryPage() {
     "publisher": {
       "@type": "Organization",
       "name": "Rizzer",
-      "url": "https://rizzer.app"
+      "url": "https://rizzer.io"
     },
     "datePublished": "2025-11-07",
     "description": "The inspiring story of how Cyriac Zeh, a 30-year-old immigrant entrepreneur and AI engineer, built Rizzer - an AI dating coach that helps thousands navigate modern dating.",
@@ -48,7 +48,7 @@ export default function StoryPage() {
         <meta name="description" content="Meet Cyriac Zeh, the 30-year-old entrepreneur, product engineer, and AI engineer who founded Rizzer. Learn how an immigrant's dating struggles led to building an AI dating coach helping thousands." />
         <meta name="keywords" content="Cyriac Zeh, Rizzer founder, AI dating coach founder, product engineer, software engineer, AI engineer, entrepreneur, San Diego entrepreneur, dating app founder" />
         <meta name="author" content="Cyriac Zeh" />
-        <link rel="canonical" href="https://rizzer.app/story" />
+        <link rel="canonical" href="https://rizzer.io/story" />
       </head>
 
       <div className="min-h-screen bg-white">

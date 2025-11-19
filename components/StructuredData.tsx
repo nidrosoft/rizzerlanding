@@ -4,23 +4,23 @@ export default function StructuredData() {
     "@graph": [
       {
         "@type": "WebSite",
-        "@id": "https://rizzer.app/#website",
-        "url": "https://rizzer.app",
+        "@id": "https://rizzer.io/#website",
+        "url": "https://rizzer.io",
         "name": "Rizzer",
         "description": "Your AI Dating Coach - Master Modern Dating with Confidence",
         "publisher": {
-          "@id": "https://rizzer.app/#organization"
+          "@id": "https://rizzer.io/#organization"
         },
         "inLanguage": "en-US"
       },
       {
         "@type": "Organization",
-        "@id": "https://rizzer.app/#organization",
+        "@id": "https://rizzer.io/#organization",
         "name": "Rizzer",
-        "url": "https://rizzer.app",
+        "url": "https://rizzer.io",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://rizzer.app/icon-512.png",
+          "url": "https://rizzer.io/icon-512.png",
           "width": 512,
           "height": 512
         },
@@ -31,14 +31,14 @@ export default function StructuredData() {
       },
       {
         "@type": "WebPage",
-        "@id": "https://rizzer.app/#webpage",
-        "url": "https://rizzer.app",
+        "@id": "https://rizzer.io/#webpage",
+        "url": "https://rizzer.io",
         "name": "Rizzer - Your AI Dating Coach | Master Modern Dating with Confidence",
         "isPartOf": {
-          "@id": "https://rizzer.app/#website"
+          "@id": "https://rizzer.io/#website"
         },
         "about": {
-          "@id": "https://rizzer.app/#organization"
+          "@id": "https://rizzer.io/#organization"
         },
         "description": "Rizzer combines AI intelligence with dating psychology to give you personalized conversation starters, date ideas, and relationship insights that actually work.",
         "inLanguage": "en-US"

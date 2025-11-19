@@ -5,7 +5,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://rizzer.app'),
+  metadataBase: new URL('https://rizzer.io'),
   title: {
     default: "Rizzer - Your AI Dating Coach | Master Modern Dating with Confidence",
     template: "%s | Rizzer"
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://rizzer.app",
+    url: "https://rizzer.io",
     siteName: "Rizzer",
     title: "Rizzer - Your AI Dating Coach",
     description: "Master modern dating with AI-powered conversation starters, personalized date ideas, and intelligent relationship management.",
@@ -86,7 +86,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <head>
-        <link rel="canonical" href="https://rizzer.app" />
+        <link rel="canonical" href="https://rizzer.io" />
         <meta name="theme-color" content="#FE3C72" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />

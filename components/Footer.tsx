@@ -99,13 +99,8 @@ export default function Footer() {
             <h3 className="font-bold text-lg mb-4">Legal</h3>
             <ul className="space-y-3">
               <li>
-                <a href="/terms" className="text-gray-400 hover:text-white transition-colors">
-                  Terms of Service
-                </a>
-              </li>
-              <li>
-                <a href="/privacy" className="text-gray-400 hover:text-white transition-colors">
-                  Privacy Policy
+                <a href="mailto:nidrosoft@outlook.com" className="text-gray-400 hover:text-white transition-colors">
+                  Contact Us
                 </a>
               </li>
               <li>
@@ -114,8 +109,18 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="mailto:nidrosoft@outlook.com" className="text-gray-400 hover:text-white transition-colors">
-                  Contact Us
+                <a href="/privacy" className="text-gray-400 hover:text-white transition-colors">
+                  Privacy Policy
+                </a>
+              </li>
+              <li>
+                <a href="/terms" className="text-gray-400 hover:text-white transition-colors">
+                  Terms of Service
+                </a>
+              </li>
+              <li>
+                <a href="/sherlock-consent" className="text-gray-400 hover:text-white transition-colors">
+                  Sherlock Consent
                 </a>
               </li>
             </ul>
