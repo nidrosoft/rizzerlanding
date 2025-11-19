@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
+import Image from 'next/image';
 
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -44,10 +45,17 @@ export default function Header() {
           <motion.div
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
-            className="text-2xl md:text-3xl font-bold text-gradient cursor-pointer"
+            className="cursor-pointer"
             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
           >
-            Rizzer
+            <Image
+              src="/images/rizzer-logo.png"
+              alt="Rizzer Logo"
+              width={120}
+              height={40}
+              className="h-8 md:h-10 w-auto"
+              priority
+            />
           </motion.div>
 
           {/* Desktop Navigation */}

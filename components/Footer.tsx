@@ -1,6 +1,7 @@
 'use client';
 
 import { Instagram, Twitter, MessageCircle } from 'lucide-react';
+import Image from 'next/image';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -11,7 +12,15 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           {/* About */}
           <div>
-            <div className="text-2xl font-bold text-gradient mb-4">Rizzer</div>
+            <div className="mb-4">
+              <Image
+                src="/images/rizzer-logo.png"
+                alt="Rizzer Logo"
+                width={120}
+                height={40}
+                className="h-8 w-auto"
+              />
+            </div>
             <p className="text-gray-400 mb-6">
               Your AI Dating Coach - Master Modern Dating with Confidence
             </p>
