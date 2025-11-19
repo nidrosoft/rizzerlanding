@@ -226,7 +226,7 @@ export default function PrivacyPolicyPage() {
 
             <h3 className="text-xl font-semibold mb-3 mt-6">6.4 How to Exercise Your Rights</h3>
             <p className="text-gray-700 leading-relaxed">
-              <strong>Email:</strong> privacy@rizzer.app<br />
+              <strong>Email:</strong> privacy@rizzer.io<br />
               <strong>In-App:</strong> Settings → Privacy → Data Rights<br />
               <strong>Response Time:</strong> Within 30 days of verified request
             </p>
@@ -243,7 +243,7 @@ export default function PrivacyPolicyPage() {
 
             <h3 className="text-xl font-semibold mb-3 mt-6">7.2 Parental Notice</h3>
             <p className="text-gray-700 leading-relaxed">
-              If you believe your child under 18 has provided information to Rizzer, contact us immediately at <strong>privacy@rizzer.app</strong>. We will promptly delete the account and all associated data.
+              If you believe your child under 18 has provided information to Rizzer, contact us immediately at <strong>privacy@rizzer.io</strong>. We will promptly delete the account and all associated data.
             </p>
           </section>
 
@@ -295,7 +295,7 @@ export default function PrivacyPolicyPage() {
               If you have questions about this Privacy Policy or our privacy practices:
             </p>
             <p className="text-gray-700 leading-relaxed">
-              <strong>Email:</strong> privacy@rizzer.app<br />
+              <strong>Email:</strong> privacy@rizzer.io<br />
               <strong>In-App:</strong> Settings → Help → Contact Support
             </p>
             <p className="text-gray-700 leading-relaxed mt-6">
@@ -316,7 +316,7 @@ export default function PrivacyPolicyPage() {
               © 2025 Rizzer. All rights reserved.
             </p>
             <p className="text-center mt-4">
-              <strong>Questions? Contact us at privacy@rizzer.app</strong>
+              <strong>Questions? Contact us at privacy@rizzer.io</strong>
             </p>
           </section>
         </div>

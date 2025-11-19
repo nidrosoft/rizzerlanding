@@ -248,7 +248,7 @@ export default function CookiePolicyPage() {
 
             <h3 className="text-xl font-semibold mb-3">9.2 Parental Notice</h3>
             <p className="text-gray-700 leading-relaxed">
-              If you believe a child has used Rizzer, contact us immediately at <strong>privacy@rizzer.app</strong>. We will delete all data and cookies, and the account will be permanently closed.
+              If you believe a child has used Rizzer, contact us immediately at <strong>privacy@rizzer.io</strong>. We will delete all data and cookies, and the account will be permanently closed.
             </p>
           </section>
 
@@ -273,14 +273,14 @@ export default function CookiePolicyPage() {
             
             <h3 className="text-xl font-semibold mb-3">13.1 Questions About Cookies</h3>
             <p className="text-gray-700 leading-relaxed">
-              <strong>Email:</strong> privacy@rizzer.app<br />
+              <strong>Email:</strong> privacy@rizzer.io<br />
               <strong>Subject:</strong> Cookie Policy Inquiry<br />
               <strong>Response Time:</strong> Within 7 business days
             </p>
 
             <h3 className="text-xl font-semibold mb-3 mt-6">13.2 Data Rights Requests</h3>
             <p className="text-gray-700 leading-relaxed">
-              <strong>Email:</strong> privacy@rizzer.app<br />
+              <strong>Email:</strong> privacy@rizzer.io<br />
               <strong>Subject:</strong> Data Rights Request<br />
               <strong>Include:</strong> Your name, email, and specific request<br />
               <strong>Response Time:</strong> Within 30 days
@@ -288,7 +288,7 @@ export default function CookiePolicyPage() {
 
             <h3 className="text-xl font-semibold mb-3 mt-6">13.3 Technical Support</h3>
             <p className="text-gray-700 leading-relaxed">
-              <strong>Email:</strong> support@rizzer.app<br />
+              <strong>Email:</strong> support@rizzer.io<br />
               <strong>In-App:</strong> Settings → Help → Contact Support
             </p>
           </section>
@@ -343,7 +343,7 @@ export default function CookiePolicyPage() {
               </Link>
             </p>
             <p className="text-center mt-4 font-semibold">
-              Questions? Contact us at <a href="mailto:privacy@rizzer.app" className="text-rizzer-pink hover:text-rizzer-salmon underline">privacy@rizzer.app</a>
+              Questions? Contact us at <a href="mailto:privacy@rizzer.io" className="text-rizzer-pink hover:text-rizzer-salmon underline">privacy@rizzer.io</a>
             </p>
           </section>
         </div>

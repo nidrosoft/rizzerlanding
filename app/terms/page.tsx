@@ -245,7 +245,7 @@ export default function TermsOfServicePage() {
             
             <h3 className="text-xl font-semibold mb-3">12.1 Informal Resolution</h3>
             <p className="text-gray-800 leading-relaxed mb-4">
-              Before filing a claim, contact us at <strong>legal@rizzer.app</strong> and allow 60 days for resolution attempt.
+              Before filing a claim, contact us at <strong>legal@rizzer.io</strong> and allow 60 days for resolution attempt.
             </p>
 
             <h3 className="text-xl font-semibold mb-3">12.2 Binding Arbitration</h3>
@@ -268,7 +268,7 @@ export default function TermsOfServicePage() {
 
             <h3 className="text-xl font-semibold mb-3 mt-6">12.4 Opt-Out Right</h3>
             <p className="text-gray-800 leading-relaxed">
-              You may opt out of arbitration within 30 days of accepting these Terms by emailing <strong>legal@rizzer.app</strong> with subject "Arbitration Opt-Out" including your name, email, and phone number.
+              You may opt out of arbitration within 30 days of accepting these Terms by emailing <strong>legal@rizzer.io</strong> with subject "Arbitration Opt-Out" including your name, email, and phone number.
             </p>
           </section>
 
@@ -278,7 +278,7 @@ export default function TermsOfServicePage() {
             
             <h3 className="text-xl font-semibold mb-3">13.1 Termination by You</h3>
             <p className="text-gray-700 leading-relaxed mb-4">
-              You may terminate your account at any time through Settings → Account → Delete Account or by emailing support@rizzer.app.
+              You may terminate your account at any time through Settings → Account → Delete Account or by emailing support@rizzer.io.
             </p>
 
             <h3 className="text-xl font-semibold mb-3">13.2 Termination by Us</h3>
@@ -317,8 +317,8 @@ export default function TermsOfServicePage() {
               If you have questions about these Terms:
             </p>
             <p className="text-gray-700 leading-relaxed">
-              <strong>Email:</strong> legal@rizzer.app<br />
-              <strong>Support:</strong> support@rizzer.app<br />
+              <strong>Email:</strong> legal@rizzer.io<br />
+              <strong>Support:</strong> support@rizzer.io<br />
               <strong>In-App:</strong> Settings → Help → Contact Support<br />
               <strong>Response Time:</strong> Within 48 hours
             </p>
@@ -363,7 +363,7 @@ export default function TermsOfServicePage() {
               </Link>
             </p>
             <p className="text-center mt-4 font-semibold">
-              Questions? Contact us at <a href="mailto:legal@rizzer.app" className="text-rizzer-pink hover:text-rizzer-salmon underline">legal@rizzer.app</a>
+              Questions? Contact us at <a href="mailto:legal@rizzer.io" className="text-rizzer-pink hover:text-rizzer-salmon underline">legal@rizzer.io</a>
             </p>
           </section>
         </div>

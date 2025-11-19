@@ -230,10 +230,10 @@ export default function SherlockConsentPage() {
             <p className="text-center mt-4">
               <strong>Questions?</strong> Contact us at{' '}
               <a 
-                href="mailto:legal@rizzer.app" 
+                href="mailto:legal@rizzer.io" 
                 className="text-blue-600 hover:text-blue-800 underline"
               >
-                legal@rizzer.app
+                legal@rizzer.io
               </a>
             </p>
           </section>
