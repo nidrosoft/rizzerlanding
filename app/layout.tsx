@@ -49,7 +49,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Reserve Your AI Dating Coach",
+    title: "Elevate Your Dating Game",
     description: "Date with confidence and show them you care. Get personalized conversation starters, thoughtful date ideas, and relationship insights powered by AI. 💬❤️",
     images: ["/images/favicon.jpg"],
     creator: "@rizzerapp",
