@@ -49,8 +49,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Rizzer - Your AI Dating Coach",
-    description: "Get personalized conversation starters, date ideas, and relationship insights powered by AI. Master modern dating with confidence. Download now! 💬❤️",
+    title: "Reserve Your AI Dating Coach",
+    description: "Date with confidence and show them you care. Get personalized conversation starters, thoughtful date ideas, and relationship insights powered by AI. 💬❤️",
     images: ["/images/favicon.jpg"],
     creator: "@rizzerapp",
     site: "@rizzerapp",
